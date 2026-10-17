@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --nano-green: #008B61;
+    --nano-red: #A20C12;
+    --nano-dark: #153D38;
+    --nano-ice: #F3F8F6;
+    --nano-graphite: #263238;
+  }
+
+  body {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #263238;
+    background-color: #F3F8F6;
+    overflow-x: hidden;
+  }
+
+  /* Microfluidic animation keyframes */
+  @keyframes fluidFlow {
+    0% {
+      stroke-dashoffset: 24;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .animate-fluid-flow {
+    stroke-dasharray: 6 6;
+    animation: fluidFlow 2s linear infinite;
+  }
+}

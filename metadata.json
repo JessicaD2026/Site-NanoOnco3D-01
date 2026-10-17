@@ -1,0 +1,6 @@
+{
+  "name": "NanoOnco3D — Plataforma Biotecnológica",
+  "description": "Tecnologias que aproximam a ciência de soluções para a vida. Cultivo celular 3D, microfluídica e medicina personalizada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
